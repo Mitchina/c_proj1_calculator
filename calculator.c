@@ -3,12 +3,12 @@
 
 int main(int argc, char *argv[])
 {
-    //DICHIARAZIONE
+    //DECLARATION
     int x;
     int y;
     int operation;
 
-    // ASSEGNAZIONE (INPUT)
+    // ASSIGNMENT (INPUT)
     printf("%s\n", "1.Addition");
     printf("%s\n", "2.Subtraction");
     printf("%s\n", "3.Multiplication");
@@ -16,19 +16,19 @@ int main(int argc, char *argv[])
     printf("%s\n", "Choose the operation you want, typing its respective number.");
     scanf("%d", &operation);
 
-    //ELABORAZIONE
+    //PROCESSING
     switch(operation)
     {
     case 1:
         printf("%s\n", "You chose Addition:");
-        // ASSEGNAZIONE (INPUT)
+        // ASSIGNMENT (INPUT)
         printf("%s\n", "Enter the first number: ");
         scanf("%d", &x);
         printf("%s\n", "Enter the second number: ");
         scanf("%d", &y);
         int sum =0;
 
-        //ELABORAZIONE
+        //PROCESSING
         sum = x + y;
 
         //OUTPUT
@@ -38,14 +38,14 @@ int main(int argc, char *argv[])
 
     case 2:
         printf("%s\n", "You chose Subtraction");
-        // ASSEGNAZIONE (INPUT)
+        // ASSIGNMENT (INPUT)
         printf("%s\n", "Enter the first number: ");
         scanf("%d", &x);
         printf("%s\n", "Enter the second number: ");
         scanf("%d", &y);
         int subtraction =0;
 
-        //ELABORAZIONE
+        //PROCESSING
         subtraction = x - y;
 
         //OUTPUT
@@ -55,14 +55,14 @@ int main(int argc, char *argv[])
 
     case 3:
         printf("%s\n", "You chose Multiplication:");
-        // ASSEGNAZIONE (INPUT)
+        // ASSIGNMENT (INPUT)
         printf("%s\n", "Enter the first number: ");
         scanf("%d", &x);
         printf("%s\n", "Enter the second number: ");
         scanf("%d", &y);
         int multiplication =0;
 
-        //ELABORAZIONE
+        //PROCESSING
         multiplication = x * y;
 
         //OUTPUT
@@ -72,14 +72,14 @@ int main(int argc, char *argv[])
 
     case 4:
         printf("%s\n", "You chose Division:");
-        // ASSEGNAZIONE (INPUT)
+        // ASSIGNMENT (INPUT)
         printf("%s\n", "Enter the first number: ");
         scanf("%d", &x);
         printf("%s\n", "Enter the second number: ");
         scanf("%d", &y);
         int division =0;
 
-        //ELABORAZIONE
+        //PROCESSING
         division = x / y;
 
         //OUTPUT
