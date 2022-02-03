@@ -80,11 +80,17 @@ int main(int argc, char *argv[])
         int division =0;
 
         //PROCESSING
-        division = x / y;
-
-        //OUTPUT
-        printf("%s\n%d","Your division result is: ", division);
-        printf("\n");
+        if(y==0)
+        {
+            printf("impossible operation");
+        }
+        else
+        {
+            division = x / y;
+            //OUTPUT
+            printf("%s\n%d","Your division result is: ", division);
+            printf("\n");
+        }
         break;
 
     default:
